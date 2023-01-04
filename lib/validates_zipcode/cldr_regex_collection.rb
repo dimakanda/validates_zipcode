@@ -54,7 +54,7 @@ module ValidatesZipcode
       FO: /\A\d{3}\z/,
       GE: /\A\d{4}\z/,
       GL: /\A39\d{2}\z/,
-      GT: /\A\d{5}\z/,
+      GT: /\d{5}/,
       HT: /\A\d{4}\z/,
       HU: /\A\d{4}\z/,
       IS: /\A\d{3}\z/,
